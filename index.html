@@ -68,7 +68,8 @@
             }
         </script>
     </head>
-    <body class="font-sans bg-white text-gray-900 h-screen overflow-hidden flex flex-col">
+    <body
+        class="font-sans bg-white text-gray-900 h-screen overflow-hidden flex flex-col">
         <main
             class="text-center max-w-2xl mx-auto px-6 flex-1 flex space-y-4 flex-col justify-start items-center pt-[33vh]">
             <header>
@@ -88,11 +89,14 @@
         </main>
         <footer class="fixed bottom-4 left-0 right-0 text-center">
             <p class="text-xs text-gray-400">
-                © 7 Cask, Inc. <span id="current-year"></span>
+                ©
+                <span id="current-year"></span>
+                7 Cask, Inc.
             </p>
         </footer>
         <script>
-            document.getElementById('current-year').textContent = new Date().getFullYear();
+            document.getElementById("current-year").textContent =
+                new Date().getFullYear();
         </script>
     </body>
 </html>
