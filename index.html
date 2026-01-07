@@ -1,10 +1,95 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>My GitHub Pages Site</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>7 Cask - AI-Native Global Healthcare Platform</title>
+        <meta
+            name="description"
+            content="7 Cask is an AI-native global healthcare platform." />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.7cask.com" />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.7cask.com" />
+        <meta
+            property="og:title"
+            content="7 Cask - AI-Native Global Healthcare Platform" />
+        <meta
+            property="og:description"
+            content="7 Cask is an AI-native global healthcare platform." />
+        <meta property="og:site_name" content="7 Cask" />
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary" />
+        <meta property="twitter:url" content="https://www.7cask.com" />
+        <meta
+            property="twitter:title"
+            content="7 Cask - AI-Native Global Healthcare Platform" />
+        <meta
+            property="twitter:description"
+            content="7 Cask is an AI-native global healthcare platform." />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet" />
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        fontFamily: {
+                            sans: ["Noto", "sans-serif"],
+                        },
+                    },
+                },
+            };
+        </script>
+
+        <!-- Structured Data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Organization",
+                "name": "7 Cask",
+                "legalName": "7 Cask, Inc.",
+                "url": "https://www.7cask.com",
+                "email": "hello@7cask.com",
+                "description": "AI-native global healthcare platform",
+                "industry": "Healthcare Technology",
+                "foundingDate": "2024",
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "email": "hello@7cask.com",
+                    "contactType": "customer service"
+                }
+            }
+        </script>
     </head>
-    <body>
-        <h1>Hello world!</h1>
-        <p>Welcome to my GitHub Pages site!</p>
+    <body class="font-sans bg-white text-gray-900 min-h-screen">
+        <main
+            class="text-center max-w-2xl mx-auto px-6 pt-[33vh] flex space-y-4 flex-col">
+            <header>
+                <h1 class="text-3xl font-light text-gray-900">7 Cask</h1>
+            </header>
+            <section>
+                <p class="text-base text-gray-600 font-normal">
+                    AI-native global healthcare platform.
+                </p>
+            </section>
+            <a
+                href="mailto:hello@7cask.com"
+                class="text-gray-900 hover:text-gray-600 underline"
+                aria-label="Contact 7 Cask via email">
+                hello@7cask.com
+            </a>
+        </main>
+        <footer class="fixed bottom-4 left-0 right-0 text-center">
+            <p class="text-xs text-gray-400">
+                © 2026 7 Cask, Inc. All rights reserved.
+            </p>
+        </footer>
     </body>
 </html>
